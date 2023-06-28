@@ -18,8 +18,8 @@ POSTER_TITLE: str = None
 
 ###############################################################
 #### * Set up visualization params for HorizontalGrid class ###
-HORIZONTAL_GRID_ROWS: int = None
-HORIZONTAL_GRID_COLS: int = None
+HORIZONTAL_GRID_ROWS: int = 1
+HORIZONTAL_GRID_COLS: int = 3
 HORIZONTAL_GRID_IS_DETECTION_TASK: bool = IS_DETECTION_TASK
 ###############################################################
 
@@ -64,14 +64,16 @@ HEATMAP_ROWS: int = None
 HEATMAP_COLS: int = None
 HEATMAP_GRID_SPACING: int = None
 HEATMAP_OUTER_GRID_SPACING: int = None
-HEATMAP_OUTPUT_WIDTH: int = None # 1 class in dataset? -> 1600px for portrait images, 2200px for landscape
+HEATMAP_OUTPUT_WIDTH: int = (
+    None  # 1 class in dataset? -> 1600px for portrait images, 2200px for landscape
+)
 ###############################################################
-
 
 
 ##################################
 ###### ? Do not edit bellow #####
 ##################################
+
 
 def get_visualization_options():
     vis_settings = {
@@ -93,7 +95,7 @@ def get_visualization_options():
             "rows": SIDE_ANNOTATIONS_GRID_ROWS,
             "cols": SIDE_ANNOTATIONS_GRID_COLS,
             "is_detection_task": SIDE_ANNOTATIONS_GRID_IS_DETECTION_TASK,
-        }
+        },
     }
 
     checked_vis_settings = {}
