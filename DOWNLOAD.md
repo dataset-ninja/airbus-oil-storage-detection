@@ -1,4 +1,4 @@
-Dataset **Airbus Oil Storage Detection** can be downloaded in Supervisely format:
+Dataset **Airbus Oil Storage Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
  [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/p/J/os/U4ZTmdkAso2NA9b5k2Mp7vrw35CgDgHEqslTLtzMuELs1Xzy1RvJo6sV3JeayWeFO9BCkGHx2JOPu6PEclGz3ISAUTruFMXo9BrZ2BCfoLqCx0grgj44uFGYtSmB.tar)
 
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Airbus Oil Storage Detection', dst_path='~/dtools/datasets/Airbus Oil Storage Detection.tar')
+dtools.download(dataset='Airbus Oil Storage Detection', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/airbusgeo/airbus-oil-storage-detection-dataset/download?datasetVersionNumber=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/airbusgeo/airbus-oil-storage-detection-dataset/download?datasetVersionNumber=1)
