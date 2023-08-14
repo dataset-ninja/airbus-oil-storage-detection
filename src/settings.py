@@ -17,6 +17,8 @@ PROJECT_NAME: str = "Airbus Oil Storage Detection"
 PROJECT_NAME_FULL: str = (
     "Sample Oil Storage Tank Detection Dataset from Airbus SPOT Satellite Imagery"
 )
+HIDE_DATASET = False  # set False when 100% sure about repo quality
+
 
 ##################################
 # * After uploading to instance ##
@@ -81,6 +83,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,        
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,
