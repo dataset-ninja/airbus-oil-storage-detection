@@ -57,6 +57,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Jeff Faudi"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://www.kaggle.com/jeffaudi"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Airbus DS Intelligence"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "http://www.intelligence-airbusds.com/"
@@ -104,6 +105,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
