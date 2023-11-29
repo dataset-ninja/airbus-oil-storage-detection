@@ -1,6 +1,6 @@
 Dataset **Airbus Oil Storage Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/W/Y/XP/wufkuFH14LDg7VzxMCkl3lveFLNgZUpM8tsiIPk3ssFcQuj7ko8ZqZ6HCe8oWb413pdcNfuCSC1G1XWpoTzw4aBxikYouVPvv0K7AlGprAz4c7oFBhUhemAOhy3Y.tar)
+ [Download](https://www.dropbox.com/scl/fi/ysu0x6a6h1he47mdakbxf/airbus-oil-storage-detection-DatasetNinja.tar?rlkey=1mz6soncl2wicublen503f4fd&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
